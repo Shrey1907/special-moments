@@ -1,0 +1,67 @@
+/* style.css */
+
+/* Body background and font settings */
+body {
+    font-family: 'Arial', sans-serif;
+    
+    background-color: #f8f9fa;
+}
+
+/* style.css */
+.carousel-item img {
+    max-width: 100%; /* Ensure image width does not exceed container width */
+    max-height: 80vh; /* Ensure image height does not exceed 80% of viewport height */
+    object-fit: contain; /* Scale image to fit inside container without distortion */
+    margin: 0 auto; /* Center the image */
+    display: block; /* Center alignment */
+    position: relative; /* Position relative to stay below the image */
+    text-align: center; /* Center text alignment */
+    padding: 15px 0; /* Add some space above and below the caption */
+    background-color: rgba(0, 0, 0, 0.6); /* Optional: Add a semi-transparent background */
+    color: #fff; /* White text color for better readability */
+    width: 100%; /* Full width caption */
+    margin-top: 10px; /* Space between image and caption */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+/* style.css */
+.carousel-item video {
+    max-width: 100%; /* Make sure the video doesn't exceed the container's width */
+    max-height: 80vh; /* Limit the video height to 80% of the viewport */
+    object-fit: contain; /* Maintain aspect ratio without cropping */
+    margin: 0 auto; /* Center the video */
+    display: block; /* Block display for centering */
+}
+
+
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header section */
+.container h1 {
+    color: #dc3545;
+}
+
+.container p {
+    font-size: 1.25rem;
+}
+
+.carousel-caption {
+    background-color: #dc3545;
+}
+/* Card styling */
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+}
